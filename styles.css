@@ -1,0 +1,44 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 4;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
